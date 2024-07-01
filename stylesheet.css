@@ -1,0 +1,47 @@
+#content {
+    page-break-inside: avoid;
+    /* Prevent content from breaking inside */
+  }
+  
+  #contentAr {
+    direction: rtl;
+    page-break-inside: avoid;
+    /* Prevent content from breaking inside */
+  }
+  
+  .ql-size-small {
+    font-size: 10px;
+  }
+  
+  .ql-size-large {
+    font-size: 30px;
+  }
+  
+  .ql-size-huge {
+    font-size: 40px;
+  }
+  
+  
+  #mainTable {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #mainTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    /* Ensure content aligns to the top of each cell */
+  }
+
+  th, td {
+    width: 50%; /* Set equal width for both columns */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+  
+  /*-----------------------------------------*/
